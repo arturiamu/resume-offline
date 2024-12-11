@@ -59,3 +59,23 @@ $ npm start
 ## 联系交流
 
 本仓库fork自https://github.com/coderming/resume
+
+## 启动问题
+
+### node 版本
+
+v16.20.2
+
+### 错误信息
+
+#### taobao 镜像过期
+
+```shell
+request to https://registry.npm.taobao.org/yargs/download/yargs-3.10.0.tgz?cache=0&sync_timestamp=1573351864448&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-3.10.0.tgz failed, reason: certificate has expired
+```
+
+解决：
+
+```shell
+npm config set strict-ssl false
+```
