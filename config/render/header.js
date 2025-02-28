@@ -19,6 +19,7 @@ export default {
   profiles: [
     '男 · 2023届本科',
     '昆明理工大学 · 软件工程',
+    'golang、k8s、sql、nosql、计算机网络、操作系统',
   ],
   /**
    * 信息栏
