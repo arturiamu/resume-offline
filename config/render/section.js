@@ -171,7 +171,7 @@ export default [
       ),
       h4(`“adastra” · 个性化视频推荐网站`),
       p(
-        `一个模仿 bilibili 风格的个性化视频推荐网站，基于 springboot + vue 实现，仅为体验中大型 web 项目团队开发，带领团队获得项目汇报优胜金将。`
+        `一个模仿 bilibili 风格的个性化视频推荐网站，基于 springboot + vue 实现，仅为体验中大型 web 项目团队开发，带领团队获得项目汇报优胜金奖。`
       ),
     ],
   },
